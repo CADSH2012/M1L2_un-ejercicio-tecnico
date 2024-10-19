@@ -1,0 +1,13 @@
+import random
+
+
+caracteres = ["+","-","/","*","!","&","$","#","?","=","@","a","b","c","d","e","f","g","h","i","j","k","l","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
+
+long_contrasenia = int(input("Porfavor con números enteros escribe el tamanio de caracteres que va a tener tu contrasenia"))
+
+contrasenia_generada = (random.choice(caracteres))
+
+for c in range(long_contrasenia):
+    contrasenia_generada = (random.choice(caracteres))
+
+    print(contrasenia_generada)
